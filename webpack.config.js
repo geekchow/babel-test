@@ -13,7 +13,7 @@ module.exports= {
             {
                 test: /\.js$/,
                 include: [path.resolve(__dirname, 'src')],
-                loader: 'babel?presets[]=es2015',
+                loader: 'babel',
             }
         ]
     }
